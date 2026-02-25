@@ -1,0 +1,47 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 300px;
+}
+
+.form__group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+label {
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+input {
+  border: 2px solid black;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font: inherit;
+  font-size: 1.1rem;
+  cursor: pointer;
+  outline: none;
+}
+
+input:focus {
+  border-color: red;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.5em 1em;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  transform: translateY(10px);
+  background-color: #aaaaaa;
+  color: black;
+  font-size: 1.2rem;
+}

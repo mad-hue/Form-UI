@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet" />
+
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/utils.css" />
+    <link rel="stylesheet" href="./styles/components/form.css" />
+    <link rel="stylesheet" href="./styles/components/profile.css" />
+    <title>Form UI</title>
+  </head>
+  <body>
+    <section class="wrapper">
+      <div class="form">
+        <form target="_self" method="POST">
+          <div class="form__group">
+            <label for="fname">Full name</label>
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              placeholder="What should we call you?"
+              required />
+          </div>
+          <div class="form__group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="john@doe.com"
+              required />
+          </div>
+          <div class="form__group">
+            <label for="password">Enter password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="xxxxxxxx"
+              required />
+          </div>
+          <div class="form__group">
+            <label for="password">Confirm password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="xxxxxxxx"
+              required />
+          </div>
+          <button type="submit" class="btn">Update profile</button>
+        </form>
+      </div>
+
+      <div class="profile">
+        <span class="score">65%</span>
+        <span class="title">Profile Completeness</span>
+        <div class="list">
+          <p class="text1">Create Account</p>
+          <p class="text2">Update Profile Progress</p>
+          <p class="text3">Setup Pubic Profile</p>
+          <p class="text4">Complete your first project</p>
+          <p class="text5">Invite your Friends</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
